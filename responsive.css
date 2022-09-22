@@ -1,13 +1,18 @@
-@media (max-width: 740px) {
+@media (max-width: 1024px) {
     .btn-menu {
-        display: block;
-        position: absolute;
-        top: 15px;
-        left: 15px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 40px;
+        background-color: white ;
+        display: flex;
+        align-items: center;
     }
 
     .icon-menu {
         font-size: 24px;
+        padding-left: 20px;
     } 
 
     .shadow-container {
@@ -17,14 +22,18 @@
         right: 0;
         bottom: 0;
         background-color: rgba(0, 0, 0, 0.5);
-        display: block;
+        display: none;
     }
 
     .side-bar {
-        display: block;
+        display: none;
         position: fixed;
-        width: 70%;
+        width: 200px;
         z-index: 2;
+    }
+
+    .content {
+        margin-top: 40px;
     }
 
     .content-title-img {
