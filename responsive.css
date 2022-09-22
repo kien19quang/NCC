@@ -1,0 +1,60 @@
+@media (max-width: 740px) {
+    .btn-menu {
+        display: block;
+        position: absolute;
+        top: 15px;
+        left: 15px;
+    }
+
+    .icon-menu {
+        font-size: 24px;
+    } 
+
+    .shadow-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: block;
+    }
+
+    .side-bar {
+        display: block;
+        position: fixed;
+        width: 70%;
+        z-index: 2;
+    }
+
+    .content-title-img {
+        height: 70px;
+        width: 200px;
+        object-fit: contain;
+    }
+
+    .content-body {
+        width: 100%;
+    }
+
+    .content-hero-section {
+        height: 400px;
+    }
+
+    .hero-section-sub-title {
+        width: 85%;
+    }
+    
+    .content-features {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .features-item {
+        width: 100%;
+    }
+
+    .footer-content {
+        height: 60px;
+    }
+}
